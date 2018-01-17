@@ -54,8 +54,11 @@ dependencies {
 3. 参数说明
 
 `PAY_TYPE` 支付类型.目前可用的有: 支付宝支付 `PAY_TYPE_ALIPAY`,微信支付 `PAY_TYPE_WXPAY`
+
 `PAY_ORDER_CONTENT` 支付信息. 订单信息拼接加签名后的那段数据.
+
 `RESULT_STATUS` 支付状态. `PAY_SUCCESS` 支付成功, `PAY_FAILD` 支付失败.
+
 `RESULT_MSG` 支付结果提示信息. 主要是支付宝的一些不同状态的提示信息.没有特别要求的话可以直接作为支付提示信息.内容有这几种: 支付成功,支付失败,支付取消,支付结果处理中,网络异常,支付失败
 
 
