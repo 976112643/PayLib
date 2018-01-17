@@ -35,7 +35,6 @@
 
             </intent-filter>
         </activity>
-        <!--<data android:scheme="${PAY_WX_APPID}" />-->
         <activity
             android:name="com.quanwe.library.ui.WXPayEntryActivity"
             android:exported="true"
@@ -56,7 +55,7 @@
 
 
         <activity-alias
-            android:name="${PAY_PKGNAME}.wxapi.WXEntryActivity"
+            android:name="${applicationId}.wxapi.WXEntryActivity"
             android:targetActivity="com.quanwe.library.ui.WXEntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -64,7 +63,7 @@
             </intent-filter>
         </activity-alias>
         <activity-alias
-            android:name="${PAY_PKGNAME}.wxapi.WXPayEntryActivity"
+            android:name="${applicationId}.wxapi.WXPayEntryActivity"
             android:targetActivity="com.quanwe.library.ui.WXPayEntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
