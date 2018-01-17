@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">library</string>
+    <string name="toast_argment_err">请检查支付参数是否正确</string>
+    <string name="toast_pay_success">支付成功</string>
+    <string name="toast_pay_faild">支付失败</string>
+    <string name="toast_pay_cancel">支付取消</string>
+    <string name="toast_pay_paying">支付结果处理中</string>
+    <string name="toast_pay_neterr">网络异常,支付失败</string>
+</resources>
