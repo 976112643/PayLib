@@ -43,14 +43,14 @@ public class WXEntryActivity extends Activity implements IWXAPIEventHandler {
 
     @Override
     public void onReq(BaseReq req) {
-        Toast.makeText(this, "openid = " + req.openId, Toast.LENGTH_SHORT).show();
-
+//        Toast.makeText(this, "openid = " + req.openId, Toast.LENGTH_SHORT).show();
+finish();
     }
 
     @Override
     public void onResp(BaseResp resp) {
-        Toast.makeText(this, "openid = " + resp.openId, Toast.LENGTH_SHORT).show();
-
+//        Toast.makeText(this, "openid = " + resp.openId, Toast.LENGTH_SHORT).show();
+finish();
     }
 
 }
